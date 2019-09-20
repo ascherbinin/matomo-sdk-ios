@@ -2,6 +2,7 @@
 
 ## 7.0.2 
 * **improvement** Added `timeout` property to URLSessionDispatcher initialization method
+* **bugfix** Fixed a retain cycle on `MatomoTracker`. [#316](https://github.com/matomo-org/matomo-sdk-ios/issues/316)
 
 ## 7.0.1
 * **bugfix** Fixed an issue with a new `forcedVisitorId` value validation. [#315](https://github.com/matomo-org/matomo-sdk-ios/pull/315)
